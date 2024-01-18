@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
                     enableSystem
                     disableTransitionOnChange
                 >
-                    <main className="flex flex-col items-center justify-center h-screen">
+                    <main className="flex flex-col items-center justify-center">
                         <NavBar />
                         {children}
                     </main>

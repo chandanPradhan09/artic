@@ -15,7 +15,7 @@ const NavBar = () => {
                         href="/signin"
                         className={buttonVariants({ variant: "default" })}
                     >
-                        SingIn
+                        SignIn
                     </Link>
                     <Link href="/signup" className={buttonVariants()}>
                         SignUp
