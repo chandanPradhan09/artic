@@ -12,6 +12,12 @@ const NavBar = () => {
                 </Link>
                 <div className="justify-center items-center flex gap-4">
                     <Link
+                        href="/bill"
+                        className={buttonVariants({ variant: "default" })}
+                    >
+                        BILL Generation
+                    </Link>
+                    <Link
                         href="/signin"
                         className={buttonVariants({ variant: "default" })}
                     >
